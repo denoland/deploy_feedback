@@ -45,7 +45,7 @@ body:
         Please provide information about your environment, such as Deno version, operating system, and any other relevant details.
       placeholder: |
         - Deno version: [e.g. v1.32.3]
-        - OS: [e.g. macOS 10.15.4, Windows 10]
+        - OS: [e.g. macOS 10.15.4, Windows 10, Browser]
 
   - type: textarea
     attributes:
