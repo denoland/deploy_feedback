@@ -1,0 +1,66 @@
+name: "📝 Deno KV Feedback"
+description: "Share your feedback, bug reports, or feature requests for Deno KV."
+title: "[Feedback]: "
+labels: ["i: needs triage", "i: kv"]
+body:
+  - type: markdown
+    attributes:
+      value: Thank you for taking the time to provide feedback on Deno KV! Please fill out this form as completely as possible.
+
+  - type: checkboxes
+    id: input1
+    attributes:
+      label: "🔍"
+      options:
+        - label: Did you search for existing issues?
+
+  - type: dropdown
+    attributes:
+      label: Type of feedback
+      options:
+        - Bug report
+        - Feature request
+        - General feedback
+        - Documentation improvement
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Description
+      description: |
+        Please provide a detailed description of the issue or feedback.
+      placeholder: |
+        Describe your issue or feedback here.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Steps to reproduce (if applicable)
+      description: |
+        If you are reporting a bug, please provide the steps to reproduce the issue.
+      placeholder: |
+        1. Step 1
+        2. Step 2
+        3. Step 3
+
+  - type: textarea
+    attributes:
+      label: Expected behavior (if applicable)
+      description: |
+        If you are reporting a bug or suggesting a feature, please describe the expected behavior.
+      placeholder: |
+        Describe the expected behavior here.
+
+  - type: textarea
+    attributes:
+      label: Possible solution (if applicable)
+      description: "If you have suggestions on a fix for the bug or implementation of a feature."
+
+  - type: textarea
+    attributes:
+      label: Additional context
+      description: "Add any other context about the issue or feedback here. Or a screenshot if applicable."
+
