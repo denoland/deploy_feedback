@@ -1,6 +1,6 @@
 name: "📝 Deno KV Feedback"
 description: "Share your feedback, bug reports, or feature requests for Deno KV."
-title: "[Feedback]: "
+title: "[KV Feedback]: "
 labels: ["kv"]
 body:
   - type: markdown
